@@ -1,0 +1,89 @@
+body {
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: url(buttons/tlo.jpg);
+}
+
+#button {
+	height: 28px;
+	text-align: center; 
+	overflow: hidden; 
+} 
+
+ul#button li {
+	width: 164px;
+	height: 30px;
+	float: left;
+	list-style-type: none;
+	background: url(buttons/button.png);
+	background-position: center;
+	margin-left: 275px;
+	margin-bottom: 20px;
+}
+
+ul#button li a {
+	display : block; 
+	font: bold 12px/15px Arial, sans-serif;
+	color: white;
+	padding : 7px; 
+	text-decoration : none; 
+}
+
+ul#button li ul { 
+	overflow: hidden; 
+	display: none; 
+}
+
+#button2 {
+	height: 28px;
+	text-align: center; 
+	overflow: hidden; 
+} 
+
+ul#button2 li {
+	width: 164px;
+	height: 30px;
+	float: left;
+	list-style-type: none;
+	background: url(buttons/button.png);
+	background-position: center;
+	margin-left: 460px;
+	margin-bottom: 20px;
+}
+
+ul#button2 li a {
+	display : block; 
+	font: bold 12px/15px Arial, sans-serif;
+	color: white;
+	padding : 7px; 
+	text-decoration : none; 
+}
+
+ul#button2 li ul { 
+	overflow: hidden; 
+	display: none; 
+}
+
+#tlo {
+    margin: 0 auto;
+    padding: auto;
+    width: 550px;
+    text-align: left;
+    background: #E0DBD3;
+    border-left: 2px solid #6E4C22;
+    border-right: 2px solid #6E4C22;
+	border-top: 2px solid #6E4C22;
+	border-bottom: 2px solid #6E4C22;
+}
+
+#tlo2 {
+    margin: 0 auto;
+    padding: auto;
+    width: 700px;
+    text-align: left;
+    background: #E0DBD3;
+    border-left: 2px solid #6E4C22;
+    border-right: 2px solid #6E4C22;
+	border-top: 2px solid #6E4C22;
+	border-bottom: 2px solid #6E4C22;
+}

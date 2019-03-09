@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	overflow: auto;
+    margin: 0;
+    padding: 0;
+	height: 100%;
+    font: 12px Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url(images/background.jpg);     /* t³o */
+	background-repeat: no-repeat;                /* powtarzanie obrazka */
+	background-attachment: fixed;
+}
+
+#main {
+    margin: 0 auto;
+    padding: 0;
+    width: 900px;
+    text-align: left;
+	background-image: radial-gradient(ellipse, #FFFFFF, #B86B23);
+	background-image: -webkit-radial-gradient(ellipse, #FFFFFF, #B86B23);
+	background-image: -ms-radial-gradient(ellipse, #FFFFFF, #B86B23);
+	background-image: -o-radial-gradient(ellipse, #FFFFFF, #B86B23);
+	background-image: -moz-radial-gradient(ellipse, #FFFFFF, #B86B23);
+}
+
+#header {
+	margin-bottom: 0;
+    padding: 20px;
+    height: 110px;
+	background: rgb(40,40,40) url(images/logo.png);   /* kolor, zdjêcie bannera */
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#middle {
+	overflow-y: auto;
+	overflow-x: hidden;            /* wysokoœæ g³ównego okna */
+	padding: 0;
+}
+
+#footer {
+    height: 40px;
+	width: 880px;
+	margin: auto;
+    line-height: 40px;
+    text-align: center;
+    background: #F1F1C1;
+	-webkit-border-radius: 10px; /* Safari, Chrome */
+	-khtml-border-radius: 10px;    /* Konqueror */
+	-moz-border-radius: 10px; /* Firefox */
+	border-radius: 10px;
+}
+
+#menu {
+	height: 50px;         /* wysokoœæ okienek menu */
+	text-align: center; 
+	overflow: hidden; 
+	margin-top: 5px;
+	margin-bottom: -1px;
+	margin-left: -16px;
+	margin-right: 0;
+} 
+ 
+ul#menu li {
+	width: 213px;            /* d³ugoœæ okienka menu */
+	float: left;            /* wyrównanie */
+	border: 0; 
+	list-style-type: none; 
+	background-image: url(images/menu.png);   /* t³o menu */
+	background-size: 100% 100%;
+	-webkit-border-radius: 10px; /* Safari, Chrome */
+	-khtml-border-radius: 10px;    /* Konqueror */
+	-moz-border-radius: 10px; /* Firefox */
+	border-radius: 10px;
+	margin-left: 1px;
+	margin-bottom: 1px;
+} 
+ 
+ul#menu li:hover { 
+	border: 0; 
+	list-style-type: none; 
+	float: left; 
+	background-image: url(images/menu_over.jpg);   /* kolor najechanego rozwiniêtego okienka */
+	color: black;
+	margin-left: 1px;
+	margin-bottom: 1px;
+} 
+ 
+ul#menu li a { 
+	display : block;
+	font: bold 12px/30px Arial, sans-serif;
+	color: white;
+	padding : 7px;                 /* odleg³oœæ rozwiniêtego okienka od nierozwiniêtego */
+	text-decoration : none;
+}
+ 
+ul#menu li a:active { 
+	color: black;            /* kolor naciœnietego tekstu w menu */
+	background-image: url(images/menu_active.jpg);      /* kolor t³a naciskanego okienka w menu */
+	background-size: 100% 100%;
+	-webkit-border-radius: 10px; /* Safari, Chrome */
+	-khtml-border-radius: 10px;    /* Konqueror */
+	-moz-border-radius: 10px; /* Firefox */
+	border-radius: 10px;
+}
+
+ul#menu li a:hover { 
+	color: black;
+} 
+
+ul#menu li ul {
+	overflow: hidden;            /* scrollowanie */
+	display: none;
+} 
+ 
+ul#menu li:hover ul {
+	position: absolute;
+	background: #9F9F9F;  /* kolor rozwijanego menu */
+	padding-top: 1px;
+	padding-left: 0;
+	padding-bottom: 0;
+	margin: 0;
+	display: block; 
+	width: 215px;                         /* d³ugoœæ rozwiniêtego okienka w menu */
+	-webkit-border-radius: 10px; /* Safari, Chrome */
+	-khtml-border-radius: 10px;    /* Konqueror */
+	-moz-border-radius: 10px; /* Firefox */
+	border-radius: 10px;
+}
+	

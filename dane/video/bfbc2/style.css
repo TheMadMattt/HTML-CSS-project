@@ -1,0 +1,89 @@
+body {
+	overflow-x: hidden;                       /* scrollowanie poziome */
+	overflow-y: auto;                          /* scrollowanie pionowe */
+	background: url(buttons/tlo.jpg);            /* t³o */
+	background-repeat: no-repeat;
+}
+
+#button {
+	height: 30px;                     /* wielkoœæ przycisku */
+	text-align: center; 
+	overflow: hidden; 
+} 
+
+ul#button li {
+	width: 190px;                     /* d³ugoœæ przycisku */
+	float: left;
+	list-style-type: none;
+	background: url(buttons/button.png);          /* t³o przycisku */              
+	margin-left: 259px;
+	margin-bottom: 0;
+}
+
+ul#button li a {
+	display : block; 
+	font: bold 12px/15px Arial, sans-serif;            /* czcionka */
+	color: white;
+	padding : 7px; 
+	text-decoration : none; 
+}
+
+ul#button li ul { 
+	overflow: hidden; 
+	display: none; 
+}
+
+#button2 {
+	height: 34px;                       /* wielkoœæ przycisku2 */
+	text-align: center; 
+	overflow: hidden; 
+} 
+
+ul#button2 li {
+	width: 180px;                    /* d³ugoœæ przycisku 2 */
+	float: left;
+	list-style-type: none;
+	background: url(buttons/button.png);        /* t³o przycisku2 */
+	background-position: center;
+	margin-left: 470px;
+	margin-bottom: 0;
+}
+
+ul#button2 li a {
+	display : block; 
+	font: bold 12px/20px Arial, sans-serif;
+	color: white;
+	padding : 7px; 
+	text-decoration : none; 
+}
+
+ul#button2 li ul { 
+	overflow: hidden; 
+	display: none; 
+}
+
+#tlo {                           /* t³o artyku³u */
+    margin: 0 auto ;
+    padding: auto;
+    width: 550px;
+    text-align: left;
+    background: url(buttons/tlo.png);
+	color: black;
+    border-left: 2px solid #6E4C22;
+    border-right: 2px solid #6E4C22;
+	border-top: 2px solid #6E4C22;
+	border-bottom: 2px solid #6E4C22;
+}
+
+#tlo2 {                           /* t³o artyku³y otworzonego */
+    margin: 0 auto;
+    padding: auto;
+    width: 700px;
+    text-align: left;
+    background: url(buttons/tlo.png);
+	color: black;
+    border-left: 2px solid #6E4C22;
+    border-right: 2px solid #6E4C22;
+	border-top: 2px solid #6E4C22;
+	border-bottom: 2px solid #6E4C22;
+}
